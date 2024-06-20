@@ -5,6 +5,8 @@ the Capabilities of VLMs</h1></div>
 
 **Prism** is a framework built on [**VLMEvalKit**](https://github.com/open-compass/VLMEvalKit/) for decoupling and accessing the capabilities of **large vision-language models (LVLMs)**. It comprises two distinct stages: 1) **Perception Stage** that first instructs VLMs to extract and express visual information of the image; 2) **Reasoning Stage** that utilizes a external LLM (GPT-3.5, GPT-4, _etc_) to conduct reasoning and answer the question based on the textual information. Prism can both enable the breakdown analysis of VLM capabilities and serve as a solution for vision-language tasks by integrating any given VLM and LLM.
 
+**PrismCaptioners** are VLMs we trained with LLaVA architecture and ALLaVA dataset, which can be used for perception in Prism framework. We have released [PrismCaptioner-7B](https://huggingface.co/Yuxuan-Qiao/PrismCaptioner-7B), [PrismCaptioner-2B](https://huggingface.co/Yuxuan-Qiao/PrismCaptioner-2B).
+
 **Demo**
 ```python
 from demo import Perception, Reasoning
