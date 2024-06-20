@@ -1,0 +1,10 @@
+{
+    "data": "",
+    "model": "",
+    "prompt_version": "",
+    "infer_model": "",
+    "nproc": 4,
+    "ignore": true,
+    "verbose": true,
+    "postproc": false
+}

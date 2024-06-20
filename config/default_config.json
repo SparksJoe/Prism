@@ -1,0 +1,10 @@
+{
+    "data": "MMStar",
+    "model": "GPT4V",
+    "prompt_version": "generic",
+    "infer_model": "chatgpt-0125",
+    "nproc": 4,
+    "ignore": true,
+    "verbose": true,
+    "postproc": false
+}
