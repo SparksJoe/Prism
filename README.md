@@ -147,5 +147,19 @@ The results should be listed as the following structure.
     ...
 ```
 
+## Citation
+If you find our work helpful for your research, please consider giving a star and citation
+```bibtex
+@article{qiao2024prism,
+  title={Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs},
+  author={Qiao, Yuxuan and Duan, Haodong and Fang, Xinyu and Yang, Junming and Chen, Lin and Zhang, Songyang and Wang, Jiaqi and Lin, Dahua and Chen, Kai},
+  journal={arXiv preprint arXiv:2406.14544},
+  year={2024}
+}
+```
+
 ## Acknowledgment
-Utmost gratitude to [**Kenny**](https://github.com/kennymckormick)
+- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): Open-source evaluation toolkit of large vision-language models (LVLMs)
+- [XTuner](https://github.com/InternLM/xtuner): An efficient, flexible and full-featured toolkit for fine-tuning LLM
+- [ALLaVA](https://github.com/FreedomIntelligence/ALLaVA): Harnessing 1.4M GPT4V-synthesized Data for A Lite Vision-Language Model
+- Utmost gratitude to [**Kenny**](https://github.com/kennymckormick)
